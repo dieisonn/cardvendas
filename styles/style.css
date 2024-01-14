@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins&family=Roboto&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f3eae3;
+}
+
+.estrutura{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+    background-color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+    border-radius: 16px;
+    -webkit-box-shadow: 9px 10px 34px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 34px -17px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 34px -17px rgba(0,0,0,0.75);
+}
+
+.esquerda{
+    text-align: center;
+    width: 55%;
+    height: 100%;
+}
+.direita{
+    color: #656464;
+    text-align: center;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.nicho{
+    padding-left: 15px;
+    opacity: 70%;
+    text-align: left;
+}
+
+.preco{
+    color: #000071;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+s{
+    opacity: 60%;
+}
+
+.button{
+    background-color: #000071;
+    width: 60%;
+    color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
